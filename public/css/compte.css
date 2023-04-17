@@ -1,0 +1,118 @@
+#cmpth{
+    width: 50%;
+    margin: 363px 375px;
+    margin-bottom: 0%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    display: inline-grid;
+}
+.passcmpt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.ecmpt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.cmpti{
+    text-align: center;
+}
+.envocmpt{
+    padding: 1% 0%;
+}
+#cmpth a{
+    text-decoration: none;
+    color: black;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+@media screen and (max-width: 768px) {
+    #cmpth {
+        margin: 381px 165px;
+        margin-bottom: 14%;
+    }
+}
+/* formulaire d'inscription */
+.formin{
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 42.5%;
+}
+.titrin{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 239px;
+    margin-bottom: -17%;
+}
+.boutin{
+    margin-left: 0%;
+    width: 149%;
+}
+.formin input{
+    padding: 17%;
+}
+.formin label{
+    text-align: center;
+    margin-left: 30%;
+}
+.formin textarea{
+    padding: 14% 0% 10% 11%;
+    width: 137%;
+}
+@media screen and (max-width: 768px) {
+.formin {
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 35.5%;
+}
+.titrin {
+    position: relative;
+    margin-left: 39%;
+    margin-top: 239px;
+    margin-bottom: -9%;
+}
+.boutin {
+    margin-left: -8%;
+    width: 281%;
+}
+.formin textarea {
+    padding: 14% 113% 10% 11%;
+    width: 137%;
+}
+}
+
+@media screen and (max-width: 375px) {
+#cmpth {
+    margin: 349px 18px;
+    margin-bottom: 14%;
+    padding: 10% 20% 10% 20%;
+}
+.formin {
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 24.5%;
+}
+.titrin {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 239px;
+    margin-bottom: -9%;
+}
+.formin textarea {
+    padding: 12% 209% 12% 169%;
+    width: 132%;
+}
+.boutin {
+    margin-left: -11%;
+    width: 533%;
+}
+}

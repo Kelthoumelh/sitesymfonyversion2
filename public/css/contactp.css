@@ -1,0 +1,172 @@
+.tic{
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 17%;
+    color: #E5A037;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-size: 268%;
+}
+.mailc{
+    display: flex;
+    margin-bottom: 2%;
+}
+.pmailc{
+    font-size: 168%;
+    color: #875706;
+    margin-left: 8.5%;
+    margin-top: 2%;
+    font-family: 'Architects Daughter', cursive;
+}
+.instac{
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+}
+.pinstac{
+    font-size: 168%;
+    color: #875706;
+    margin-left: 8.7%;
+    margin-top: 2%;
+    font-family: 'Architects Daughter', cursive;
+}
+.facec{
+    display: flex;
+    margin-left: 0.2%;
+}
+.pfacec{
+    font-size: 168%;
+    color: #875706;
+    margin-left: 8.5%;
+    margin-top: 2%;
+    font-family: 'Architects Daughter', cursive;
+}
+.propo{
+    background-image: url(../img/marbre-beige.PNG);
+    background-repeat: no-repeat;
+    width: 118%;
+    padding: 26%;
+    background-size: 59%;
+    margin-bottom: -26%;
+}
+@media screen and (max-width: 768px) {
+    .propo {
+        width: 74%;
+        background-size: 144%;
+        margin-bottom: -16%;
+        margin-left: -2%;
+        margin-top: 10%;
+    }
+    .mailc {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: -28%;
+        margin-right: 20%;
+        margin-top: 32%;
+    }
+    .instac {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: -27%;
+        margin-right: 13%;
+    }
+    
+    .facec {
+        display: flex;
+        margin-left: -28%;
+        margin-right: 27%;
+    }
+    .tic {
+        margin-left: 14%;
+        margin-top: 5%;
+    }
+
+    .pmailc {
+        font-size: 168%;
+        color: #875706;
+        margin-left: 8.5%;
+        margin-top: 10%;
+        font-family: 'Architects Daughter', cursive;
+    }
+}
+@media screen and (max-width: 375px) {
+    .tic {
+        margin-left: 3%;
+        margin-top: -17%;
+    }
+    .mailc {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: -28%;
+        margin-right: 20%;
+        margin-top: -6%;
+    }
+    .pmailc {
+        font-size: 125%;
+        color: #875706;
+        margin-left: 8.5%;
+        margin-top: 10%;
+        font-family: 'Architects Daughter', cursive;
+    }
+    .instac {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: -26%;
+        margin-right: 13%;
+        margin-top: 7%;
+    }
+    .pinstac {
+        font-size: 125%;
+        color: #875706;
+        margin-left: 9.7%;
+        margin-right: -20%;
+        margin-top: 2%;
+        font-family: 'Architects Daughter', cursive;
+    }
+    .pfacec {
+        font-size: 125%;
+        color: #875706;
+        margin-left: 7.5%;
+        margin-top: 2%;
+        font-family: 'Architects Daughter', cursive;
+    }
+    .propo {
+        width: 74%;
+        background-size: 161%;
+        margin-bottom: -23%;
+        margin-left: -2%;
+        margin-top: 56%;
+    }
+}
+.container{
+    text-align: center;
+}
+.form-group{
+    margin-top: 2%;
+}
+.text-centerC{
+    margin-top: 200px;
+}
+.btnE{
+    margin-top: 1%;
+    padding: 1% 3.7%;
+}
+#contact_nom{
+    padding: 2% 2%;
+}
+#contact_email{
+    padding: 2% 2%;
+}
+#contact_message{
+    padding: 2% 2%;
+}
+
+/* BACK */
+.tabC{
+    text-align: center;
+    margin-left: 39.5%;
+    margin-top: 130px;
+}
+.LC{
+    margin-top: 300px;
+    text-align: center;
+}

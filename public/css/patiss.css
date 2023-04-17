@@ -1,0 +1,282 @@
+.pat{
+    margin-top: 17%;
+    margin-bottom: -10%;
+    margin-left: 45.5%;
+    color: #E5A037;
+}
+.P4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+
+}
+.photo1{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.photo2{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+}
+.photo3{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+}
+.photo4{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+}
+.P8{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.photo5{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+
+}
+.photo6{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+
+}
+.photo7{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+}
+.photo8{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+}
+.prix2 {
+    margin-top: 15%;
+    margin-left: 1%;
+    margin-bottom: 6%;
+    color: #E5A037;
+    text-align: center;
+}
+.basimg{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:-74%;
+}
+.basimg2{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:-24%;
+}
+.basimg3{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:25%;
+}
+.basimg4{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 75%;
+}
+.basimg5{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:-74%;
+}
+.basimg6{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:-24%;
+}
+.basimg7{
+    position: absolute;
+    margin-top: 20%;
+    margin-left:25%;
+}
+.basimg8{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 75%;
+}
+@media screen and (max-width: 768px) {
+    .pat{
+        margin-top: 40%;
+        margin-bottom: 0%;
+        margin-left: 40%;
+    }
+    .P4 {
+        width: 281%;
+        margin-left: 22%;
+        margin-right: 0%;
+        display: block;
+    }
+    .P8{
+        width: 281%;
+        margin-left: 22%;
+        margin-right: 0%;
+        display: block;
+    }
+    .prix2 {
+        margin-top: 1%;
+        margin-left: -3%;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .photo1 {
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo2{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg2 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo3{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg3 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo4{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg4 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }    
+    .photo5{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    
+    }
+    .basimg5 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo6{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    
+    }
+    .basimg6 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo7{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg7 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo8{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg8 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+}
+/* page details produits */
+.product-detail-page {
+    margin-top: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+.product-detail-page {
+    margin-top: 40%;
+    text-align: center;
+}
+}
+@media screen and (max-width: 375px) {
+    .basimg {
+        margin-left: 11%;
+    }
+    .basimg2 {
+        margin-left: 11%;
+    }
+    .basimg3 {
+        margin-left: 11%;
+    }
+    .basimg4 {
+        margin-left: 11%;
+    }
+    .basimg5 {
+        margin-left: 11%;
+    }
+    .basimg6 {
+        margin-left: 11%;
+    }
+    .basimg7 {
+        margin-left: 11%;
+    }
+    .basimg8 {
+        margin-left: 11%;
+    }
+    .pat {
+        margin-top: 73%;
+        margin-bottom: 0%;
+        margin-left: 31%;
+    }
+}

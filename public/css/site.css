@@ -1,0 +1,342 @@
+body {
+    display: block;
+    margin: 8px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 19px 7%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #FBC364;
+}
+.mr{
+    display: flex;
+}
+.logo0{
+    color:#FBC364;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.logo{
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 60px;
+}
+.navbar a:hover{
+    color: #E5A037;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+}
+.myimg {
+    position: relative;
+    top: 7px;
+    width: 30px;
+}
+.header .hamburger {
+    display: none;
+}
+.myimg {
+    position: relative;
+    top: 7px;
+    width: 30px;
+}
+.formulaire{
+    margin-left: 14%;
+    margin-top: 3%;
+    display: flex;
+    color: #ffffff;
+}
+#searchbar{
+    position:relative; width:1040px; height:auto;
+}
+.formulaire .champ{
+    width:600px; height:35px;
+    background-color: #FBC364;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.formulaire .bouton{ 
+    width: 35px; height: 35px; padding: 0; 
+    margin-top: 0.5%;
+    background-color: #FBC364;
+    border: none;
+}
+.logos3 {
+    display: flex;
+    color: white;
+    margin-top: -9%;
+    margin-left: 94%;
+    width: 11%;
+}
+.person{
+    width:50%;
+    margin-right: 20%;
+}
+.cart{
+    width:50%;
+    margin-right: 20%;
+}
+.heart{
+    width:50%;
+}
+img:hover {
+    
+    border-radius: 6px;
+    
+    filter: hue-rotate(180deg);
+    filter: opacity(0.4) drop-shadow(0 0 0 #ffff);
+}
+@media screen and (max-width: 768px) {
+    .formulaire{
+        display:none
+    }
+    .logos3{
+        display: none;
+    }
+    .logo{
+        margin-left: 35%;
+        margin-top:5%;
+    }
+    .header{
+        height: 15%;
+    }
+    .navbar {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        margin-left: -5%;
+    }
+     .header .navbar{
+        position: fixed;
+        flex-direction: column;
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+        background-color:#ffffff;
+        border-radius: 12px;
+        left: 0;
+        right: 0;
+        width: 90%;
+        align-items: center;
+        top: -100%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-left: 5%;
+    }  
+    .navbar a{
+        color:#E5A037;
+        margin-left: 60px;
+    }
+    .header .hamburger {
+        display: block;
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+    .navbar.show{
+        top: 15%;
+      }
+}
+/* FIN DU HEADER */
+/* DEBUT SECTION 1 */
+.co {
+    position: absolute;
+    margin-left: 6%;
+    margin-top: -0.5%;
+    color: #ffffff;
+    text-decoration: none;
+}
+.co:hover{
+    color: #E5A037;
+}
+.section1 {
+    margin-top: 17%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 111px 30%;
+    background-color: #FBC364;
+}
+@media screen and (max-width: 768px) {
+    .section1{
+        margin-top: 30%;
+    }
+    .co {
+        margin-left: 4%;
+    }
+}
+/* FIN SECTION1 */
+/* DEBUT SECTION 2 */
+.hr1 {
+    border: none;
+    border-top: 3px double #E5A037;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin-top: 5%;
+    color:#E5A037;
+    margin-left: 32%;
+    margin-right: 35%;
+}
+.hr1:after{
+    content: "Nos Offres";
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    margin-left: -0.5%;
+    color:#E5A037
+}
+.offre{
+    display: flex;
+}
+
+.triangle {
+    width: 33%;
+    height: 74%;
+    margin-top: 7%;
+    margin-left: 73%;
+}
+.triangle2{
+    overflow:hidden
+}
+.corne {
+    width: 64%;
+    height: 75%;
+    margin-top: 12%;
+    margin-left: 56%;
+}
+.zellige {
+    width: 33%;
+    height: 75%;
+    margin-left: 32%;
+    margin-top: 6.5%;
+}
+.offre1:hover{
+    filter: hue-rotate(180deg);
+    filter: opacity(0.4) drop-shadow(0 0 0 #ffff);
+}
+.offre2:hover{
+    filter: hue-rotate(180deg);
+    filter: opacity(0.4) drop-shadow(0 0 0 #ffff);
+}
+.offre3:hover{
+    filter: hue-rotate(180deg);
+    filter: opacity(0.4) drop-shadow(0 0 0 #ffff);
+}
+@media screen and (max-width: 768px) {
+    .hr1 {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .triangle {
+        margin-left: 39%;
+    }
+    .corne {
+        margin-left: 20%;
+    }
+    .zellige {
+        margin-left: 29%
+    }
+
+}
+/* FIN DE LA SECTION 2 */
+/* DEBUT SECTION 3 */
+.hr2 {
+    border: none;
+    border-top: 3px double #E5A037;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin-top: 5%;
+    color:#E5A037;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.hr2:after{
+    content: "Qui sommes nous?";
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color:#E5A037
+}
+.imgqui{
+    padding: 88px 6%;
+    background-color:#FBC364;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+.textequi{
+    margin-top: 5%;
+    color: #E5A037;
+    margin-right: 15%;
+    margin-left:15%;
+    text-align: center
+    ;
+}
+/* DEBUT SECTION 4 */
+.section4{
+    margin-top:5%;
+    padding: 88px 6%;
+    background-color: #FBC364;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+.mc a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+}
+.map{
+    margin-left: 19%;
+    margin-top: -8%;
+}
+.cift {
+    margin-left: 65%;
+    margin-top: -26%;
+    font-size: 101%;
+}
+.menu{
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+.contact{
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+.acceuil{
+    margin-left: 0%;
+}
+.patisseries{
+    margin-left: -2%;
+}
+.plats{
+    margin-left: 1%;
+}
+.réservations{
+    margin-left: -4%
+}
+.informations{
+    margin-left: -12%;
+}
+.propos{
+    margin-left: -1%;
+}

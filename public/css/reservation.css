@@ -1,0 +1,220 @@
+/* Style the form container
+.formr {
+   width: 50%;
+   margin: 0px 1px 0px 366px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   background-color: #e2c064;
+   margin-top: 23%;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.titrr{
+   color: white;
+   text-align: center;
+}
+ Style the input fields
+ .nom, .email, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+ }
+ 
+ 
+ Style the submit button
+.submit {
+    width: 100%;
+    background-color: #8d7b2c6e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ 
+ Style the labels
+ label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ @media screen and (max-width: 768px) {
+   .formr{
+      margin: 217px 0px 0px 171px;
+   }
+ } */
+.event{
+   text-align: center;
+   margin-top: 20%;
+   color: #E5A037;
+}
+.cornr{
+   width: 128%;
+   height: 85%;
+}
+.chebar{
+   width: 54%;
+   height: 85%;
+   margin-left: 39%;
+}
+.ghlibr{
+   width: 59%;
+   height: 85%;
+   margin-left: 20%;
+}
+.ccg{
+   display: flex;
+   margin-left: 8%;
+   margin-top: 10%;
+}
+.mariage{
+   margin-left: 22.5%;
+   color: white;
+   font-size: 174%;
+   position: absolute;
+   margin-top: -10%;
+}
+.bapteme{
+   margin-left: 7%;
+   font-size: 174%;
+   margin-top: -10%;
+   color: white;
+   position: absolute;
+}
+.autre{
+   margin-left: 15.5%;
+   font-size: 174%;
+   color: white;
+   position: absolute;
+   margin-top: -10%;
+}
+.devis{
+   text-decoration: none;
+   color: #e5a037;
+   margin-left: 43.5%;
+   font-size: 130%;
+   border: solid;
+   background-color: white;
+   padding: 2%;
+   margin-bottom: 8%;
+   margin-top: 4%;
+}
+.formdevis{
+   display: flex;
+   flex-direction: column;
+   margin-top: -6%;
+}
+.formdevis input{
+   color: #E5A037;
+   padding: 2%;
+   margin: 2% 40%;
+}
+.formdevis textarea{
+   margin-bottom: 10%;
+   padding: 2%;
+   margin: 2% 40%;
+}
+.envodevis{
+
+}
+#a_masquer{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.envodevis{
+   margin-bottom: 10%;
+}
+@media screen and (max-width: 768px) {
+   .bapteme {
+      margin-left: 1%;
+      margin-top: -21%;
+  }
+   .mariage {
+      margin-left: 19%;
+      margin-top: -21%;
+  }
+  .autre {
+   margin-left: 16.5%;
+   margin-top: -21%;
+}
+.devis {
+    text-decoration: none;
+    color: #e5a037;
+    margin-left: 38.5%;
+    margin-top: 22%;
+    margin-bottom: 11%;
+}
+.formdevis input {
+   margin: 2% 22%;
+}
+.formdevis textarea{
+   margin-bottom: 10%;
+   padding: 2%;
+   margin: 2% 22%;
+}
+.event {
+   text-align: center;
+   margin-top: 40%;
+   margin-bottom: 10%;
+   color: #E5A037;
+}
+.cornr {
+   width: 212%;
+   height: 105%;
+   margin-left: -55%;
+}
+.chebar {
+   width: 88%;
+   height: 105%;
+   margin-left: 24%;
+}
+.ghlibr {
+   width: 93%;
+   height: 105%;
+   margin-left: 12%;
+}
+}
+
+@media screen and (max-width: 375px) {
+   
+   .event {
+   text-align: center;
+   margin-top: 73%;
+   margin-bottom: 10%;
+   color: #E5A037;
+}
+.cornr {
+   width: 209%;
+}
+.bapteme {
+   margin-left: -6%;
+   margin-top: -23%;
+}
+.chebar {
+   width: 89%;
+   height: 105%;
+   margin-left: 23%;
+}
+.mariage {
+   margin-left: 13%;
+   margin-top: -23%;
+}
+.autre {
+   margin-left: 11.5%;
+   margin-top: -23%;
+}
+.devis {
+   text-decoration: none;
+   color: #e5a037;
+   margin-left: 29.5%;
+   margin-top: 22%;
+   margin-bottom: 11%;
+}
+}
+
+
+

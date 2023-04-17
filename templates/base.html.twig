@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
+            <link rel="stylesheet" href="css/app.css">
         {% endblock %}
 
         {% block javascripts %}
@@ -14,6 +16,102 @@
         {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
+    </style>
+    <link rel="stylesheet" href="css/Acceuil.css">
+    <link rel="stylesheet" href="css/reservation.css">
+    <link rel="stylesheet" href="css/patiss.css">
+    <link rel="stylesheet" href="css/contactp.css"> 
+    <link rel="stylesheet" href="css/plat.css">
+    <link rel="stylesheet" href="css/compte.css">
+    <title>Ma'Zhaar</title>
+</head>
+<body>
+    <header class="header">
+        <div class="mr">
+        <a href="#" class="logo">
+        Ma'Zhaar
+    </a>
+        
+            <input class="recherche" type="text"/>
+        
+        </div>
+        <nav class="navbar">
+            <a href="Acceuil.php" class="acceuil">Acceuil</a>
+            <a href="patisseries.php" class="patisseries">Pâtisseries</a>
+            <a href="plat.php" class="plats">Plats et Pains</a>
+            <a href="reservation.php" class="réservations">Evènements</a>
+            <a href="infoliv.php" class="Informations">Mentions Légales</a>
+            <a href="contactp.php" class="propos">Contacts</a>
+        </nav>
+        <div class="hamburger">
+            <img class="myimg" src="img/grid-outline.svg">
+        </div>
+        <div class="logos3">
+            <a href="compte.php" class="person"><img  src="img/🦆 icon _person_.png"></a>
+            <a href="panier.php" class="cart"><img  src="img/🦆 icon _shopping cart outline_.png"></a>
+        </div>
+    </header>
+
+        {% block body %}
+        
+        {% endblock %}
+
+        <body>
+    <footer class="footer">
+    <div class="paiement-footer">
+        <img class="cbi" src="img/CB-icon-ma'zhaar.png" alt="">
+        <img class="klarnai" src="img/footer-klarna-ma'zhaar.png" alt="">
+        <img class="masteri" src="img/footer-mastercard-ma'zhaar.png" alt="">
+        <img class="visai" src="img/footer-visa-ma'zhaar.png" alt="">
+        <img class="paypali" src="img/footer-paypal-ma'zhaar.png" alt="">
+        <img class="applei" src="img/apple-pay-ma'zhaar.png" alt="">
+    </div>
+    <div class="logoetsous">
+        <p class="logo2">Ma'Zhaar</p>
+        <p class="souslogo">Pâtisseries & Pains marocains</p>
+    </div>
+    <section class=copy>
+        <p class="right"> <img src="">
+            copyright 2022-2023: Ma'Zhaar</p>
+    </section>
+    
+    <span class="mc2">
+    <div class="map2">
+        <h1 class="menu2">Menu</h1>
+        <a href="Acceuil.php" class="acceuil2">Acceuil</a>
+        <a href="patisseries.php" class="patisseries2">Pâtisseries</a>
+        <a href="plat.php" class="plats2">Plats</a>
+        <a href="reservation.php" class="réservations2">Evènements</a>
+        <a href="infoliv.php" class="informations2">Mentions Légales</a>
+        <a href="contactp.php" class="propos2">Contact</a>
+    </div>
+    <div class="cift2">
+        <h1 class="contact2">Contact</h1>
+        <a href="#" class="insta2">
+            Instagram</a>
+        <a href="#" class="facebook2">
+            Facebook</a>
+        <a href="#" class="téléphone2">
+            Téléphone</a>
+</div>
+</span>
+</footer>  
+    <script src="js/Acceuil.js"></script>
+    <script src="js/jquery-3.6.3.slim.min.js"></script>
+    <script src="js/patisseries.js"></script>
+    <script src="js/reservation.js"></script>
+
+</body>
+</html>
     </body>
 </html>

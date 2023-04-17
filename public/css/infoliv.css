@@ -1,0 +1,34 @@
+.titleinfo{
+    color: #E5A037;
+    margin-bottom: 4%;
+    text-align: center;
+}
+h3{
+    color: #E5A037;
+    margin: 0 7%;
+}
+.infoliv{
+    margin-top: 20%;
+    text-align: center;
+}
+.identm{
+    margin-bottom: 2%;
+}
+.contam{
+    margin-bottom: 2%;
+}
+.hebergm{
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 768px) {
+    .infoliv {
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width: 375px){
+.infoliv {
+    margin-top: 73%;
+    margin-bottom: 10%;
+}
+}
