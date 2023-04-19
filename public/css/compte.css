@@ -116,3 +116,28 @@
     width: 533%;
 }
 }
+.formI{
+    margin-top: 20%;
+    border: solid;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-color: wheat;
+}
+
+.emailI input {
+    margin-left: 3.4%;
+    margin-left: 3.4%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.mdpI input {
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+.agreeI input{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
