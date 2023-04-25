@@ -141,3 +141,18 @@
     margin-left: 2%;
     margin-bottom: 2%;
 }
+.formsign{
+    margin-top: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.container{
+    margin-top: 20%;
+    border: solid;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-color: wheat;
+}

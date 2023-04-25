@@ -52,6 +52,14 @@
             <a href="reservation.php" class="réservations">Evènements</a>
             <a href="infoliv.php" class="Informations">Mentions Légales</a>
             <a href="contactp.php" class="propos">Contacts</a>
+            <div class="stat">
+            {% if not app.user %}
+    <div class="statCo"><li><a href="{{ path('app_login') }}">Connexion</a></li></div>
+{% endif %}
+{% if app.user %}
+    <div class="statDe"><li><a href="{{ path('app_logout') }}">Déconnexion</a></li></div>
+{% endif %}
+</div>
         </nav>
         <div class="hamburger">
             <img class="myimg" src="img/grid-outline.svg">
