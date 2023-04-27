@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Produit index{% endblock %}
+
+
+{% block body %}
+   <h1>Produit index</h1>
+
+
+ <table class="table table-bordered">
+   <thead>
+       <tr>
+           <th class="text-center">Id</th>
+           <th>Nom</th>
+           <th>Description</th>
+           <th>Photo</th>
+           <th class="text-center">Actions</th>
+
+
+       </tr>
+   </thead>
+   <tbody>
+   {% for produit in produits %}
+       <tr>
+           <td class="text-center">{{ produit.id }}</td>
+           <td>{{ produit.nom }}</td>
+           <td>{{ produit.description }}</td>
+           <td class="text-center">  
+
+
+ 
+               {% if produit.photo %}
+                  <img src="{{ asset('uploads/photos/' ~ produit.photo) }}" alt="Photo du produit" class="img-thumbnail">
+               {% else %}
+                   Aucune photo disponible
+               {% endif %}
+           </td>
+           
+       </tr>
+   {% else %}
+       <tr>
+           <td colspan="5" class="text-center">Aucun produit trouvé.</td>
+       </tr>
+   {% endfor %}
+   </tbody>
+</table>
+
+
+ 
+
+
+{% endblock %}
