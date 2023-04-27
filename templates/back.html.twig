@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+            <link rel="stylesheet" href="css/app.css">
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbara">
+       <table class="nava">
+        <tr>
+            <td class="nameb" colspan=2> ma'zhaar</td>
+        </tr>
+        <tr><td></td></tr>
+        <tr>
+            <td><img src="img/🦆 icon _profile circle_.png" alt=""></td>
+            <td>Hello, Kelthoum</td>
+        </tr> 
+        </table>
+       <!-- <table class="nava2">
+        <tr>
+            <td colspan=2 class="Acceuila"><a href="">Acceuil</a></td>
+        </tr>
+        <tr>
+            <td colspan=2 class="contacta"><a href="">Contact</a></td>
+        </tr>
+        <tr>
+            <td colspan=2 class="proda"><a href="">Produits achetés</a></td>
+        </tr>
+        
+       </table> -->
+       <ul class="acp">
+       <li class="acceuila"><a href="acceuila.php"> Acceuil</a></li><br>
+       <li class="contacta"><a href="contacta.php">Contact</a> </li><br>
+       <li class="proda"><a href="proda.php">Produits Achetés</a></li><br>
+       <li class="contacta"><a href="utilisateur.php">Utilisateur</a></li><br>
+       <li class="contacta"><a href="paramètres.php">Paramètres</a></li>
+       </ul>
+    </nav>
+</body>
+</html> 
+{% block body %}
+        
+        {% endblock %}

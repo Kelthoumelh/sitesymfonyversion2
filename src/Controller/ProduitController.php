@@ -25,7 +25,7 @@ class ProduitController extends AbstractController
         ]);
     }
      /**
-    * @Route("/new", name="app_produit_new", methods={"GET", "POST"})
+    * @Route("/produit/new", name="app_produit_new", methods={"GET", "POST"})
     */
    public function new(Request $request, ProduitRepository $produitRepository): Response
    {
@@ -63,7 +63,7 @@ class ProduitController extends AbstractController
            $produitRepository->add($produit, true);
 
 
-           return $this->redirectToRoute('app_produit_index', [], Response::HTTP_SEE_OTHER);
+           return $this->redirectToRoute('app_produit', [], Response::HTTP_SEE_OTHER);
        }
 
 
