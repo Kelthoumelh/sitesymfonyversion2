@@ -1,16 +1,128 @@
-*{ margin: 0; }
-a{ text-decoration: none; color: #000; }
-.conteneur{ margin: 0 auto; max-: 1170px; }
-/**************************************************** HAUT ************************************************/
-header { background: #000000; padding: 5px; text-align: center; }
-header span{ color: #fff; font-weight: bold; text-transform: uppercase; margin-right: 5%; }
-header nav{ display: inline; }
-header a{ color: #ffffff; text-decoration: none; padding: 5px; }
-header nav a:hover{ background: #04baf6; }
-/**************************************************** MILIEU ************************************************/
-section{ padding: 30px; min-height: 800px; }
-/**************************************************** BAS ************************************************/
-footer{ background: #000; color: white; text-align: center; padding: 7px 0;}
-/**************************************************** GENERAL ************************************************/
-.erreur{ background: #ff0000; padding: 5px; margin: 5px; }
-.validation{ background: #669933; padding: 5px; margin: 5px; }
+.navbara {
+    background-color: #FBC364;
+    width: 260px;
+    height: 1075px;
+    position: absolute;
+}
+.nameb{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    top: 5%;
+    font-family: 'Architects Daughter', cursive;
+}
+.img-thumbnail {
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.table-bordered{
+margin: 0 360px;
+margin-top: 5%;
+}
+.nava {
+    margin-left: 32px;
+    color: white;
+}
+.acp {
+    list-style-type: none;
+    color: white;
+    margin-right: 41px;
+    font-size: 135%;
+    text-decoration: none;
+}
+.acp a{
+    text-decoration: none;
+    color: white;
+}
+.acceuila{
+    text-align: center;
+  
+}
+.contacta{
+    text-align: center;
+    text-decoration: none;
+}
+.proda{
+    text-align: center;
+    text-decoration: none;
+}
+.profi{
+    margin-top: 10%;
+}
+.nava2{ 
+    margin-left: 21%;
+    color:white;
+}
+/* CONTACT */
+.tabla {
+    width: 963px;
+    height: 53%;
+    background-color: #ff8d0073;
+    margin-left: 422px;
+    margin-top: 112px;
+    position: absolute;
+}
+.titra {
+    font-size: 212%;
+    margin-left: 457px;
+    margin-top: 3%;
+    position: absolute;
+    color: #875706;
+}
+.tablac {
+    margin-left: 433px;
+    margin-top: 8%;
+    color: white;
+    position: absolute;
+    border-color: wheat;
+}
+.boutsup {
+    background-color: #FBC364;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: -2%;
+    padding: 1% 5% 1% 5%;
+}
+@media screen and (max-width: 768px) {
+    .navbara {
+        background-color: #FBC364;
+        width: 235px;
+        height: 1074px;
+        position: absolute;
+    }
+    .nava {
+        margin-left: 20px;
+        color: white;
+    }
+    .acp {
+        list-style-type: none;
+        color: white;
+        margin-right: 39px;
+        font-size: 135%;
+        text-decoration: none;
+    }
+    /* contact */
+
+}
+/*Backoffice produit*/
+
+.table{
+    width: 70%;
+}
+/*Backoffice produit par produit*/
+.tablev {
+    width: 65%;
+    text-align: center;
+    margin-left: 26%;
+}
+.photoprod{
+    width: 20%;
+}
+.suppre {
+    margin-left: 27.5%;
+}
+/*Backoffice produit modification*/
+.modifprod{
+    margin-top: 20%;
+    margin-left: 20%;
+}

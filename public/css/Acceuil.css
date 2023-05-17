@@ -766,32 +766,32 @@ img:hover {
   transition: all 0.3s ease-in;
 }
 .carousel__item:nth-child(1) {
-  background-image: url(../img/zellige.PNG);
+  background-image: url(uploads/photos/zellige.PNG);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 120%;
 }
 .carousel__item:nth-child(2) {
   /* background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%); */
-  background-image: url(../img/chebakkia.PNG);
+  background-image: url(uploads/photos/chebakkia.PNG);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 120%;
 }
 .carousel__item:nth-child(3) {
-  background-image: url(../img/ghliba\(600\).png);
+  background-image: url(uploads/photos/ghliba\(600\).png);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 120%;
 }
 .carousel__item:nth-child(4) {
-  background-image: url(../img/gateau_choco.PNG);
+  background-image: url(uploads/photos/gateau_choco.PNG);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 120%;
 }
 .carousel__item:nth-child(5) {
-    background-image: url(../img/fekkas\(600\).png);
+    background-image: url(uploads/photos/fekkas\(600\).png);
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 120%;

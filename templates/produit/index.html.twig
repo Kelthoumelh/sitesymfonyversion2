@@ -1,6 +1,7 @@
 {% extends 'back.html.twig' %}
 
 
+
 {% block title %}Produit index{% endblock %}
 
 
@@ -31,12 +32,16 @@
 
  
                {% if produit.photo %}
-                  <img src="{{ asset('uploads/photos/' ~ produit.photo) }}" alt="Photo du produit" class="img-thumbnail">
+                  <img src="{{ asset('uploads/photos/' ~ produit.photo) }}" alt="Photo du produit" class="img-thumbnail" width="30%" height="30%" al>
                {% else %}
                    Aucune photo disponible
                {% endif %}
            </td>
-           
+           <td class="text-center">
+              <a href="{{ path('app_produit_show', {'id': produit.id}) }}" class="btn btn-sm btn-primary voir">Voir</a>
+              <a href="{{ path('app_produit_edit', {'id': produit.id}) }}" class="btn btn-sm btn-warning modifier">Modifier</a>
+           </td>
+
        </tr>
    {% else %}
        <tr>
